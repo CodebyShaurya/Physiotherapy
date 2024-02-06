@@ -1,0 +1,31 @@
+.doctor{
+    height: 22vw;
+    border-radius: 30px;
+    border:3px solid #9747FF;
+    width:15vw;
+    
+    color: black;
+}
+.imageofdoctor{
+    height: 10vw;
+    width:100%;
+}
+.NameofDoctor{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+.insideof{
+    margin: 10px;
+}
+
+.detailsofdoctor{
+    /* margin-left: 10px; */
+    font-weight: 600;
+}
+
+.doctor_container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(17vw,1fr));
+    grid-gap:4vw;
+}

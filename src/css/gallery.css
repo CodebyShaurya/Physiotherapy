@@ -1,0 +1,29 @@
+.gallerypage{
+    padding: 20px;
+    color:#7381FF;
+}
+
+.gallerytxtheading{
+    font-size: 80px;
+    margin:2vw;
+  }
+
+.testimonial_container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(20vw,1fr));
+    grid-gap:5vw;
+}
+
+.testimonial{
+    background-color:#7381FF ;
+    color: white;
+    width:20vw;
+    padding: 1vw;
+    border-radius: 30px;
+}
+
+.photoingallery{
+    width:20vw;
+    border-radius: 30px;
+    border:3px solid #9747FF;
+}

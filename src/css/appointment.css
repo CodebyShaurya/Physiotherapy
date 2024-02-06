@@ -1,0 +1,30 @@
+.servicesoff{
+    height: 20vh;
+    /* font-size: 6vh; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17vw,1fr));
+}
+
+.book{
+    border-radius: 30px;
+    background: linear-gradient(#7381FF,#17a8e6);
+    color: white;
+    padding: 20px;
+    width:30vw;
+    box-shadow: 0 0 5px black;
+}
+.booknow{
+    background-color: white;
+    border-radius: 30px;
+    color: #192DE1;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 2px black;
+}
+
+.bookaservice{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17vw,1fr));
+    justify-items: center;
+}

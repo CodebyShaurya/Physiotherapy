@@ -1,0 +1,130 @@
+.burger-icon {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+  }
+  .burger-icon1 {
+    cursor: pointer;
+    font-size: 24px;
+    margin: 10px;
+    color: #192DE1;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+.navdesk{
+    color:white;
+    border:3px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    /* margin:20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    text-align: center;
+}
+.navdesk1{
+
+  color:#192DE1;
+  border:3px solid #192DE1;
+  border-radius: 50px;
+  padding: 15px;
+  /* margin:20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+  text-align: center;
+}
+
+.navdeskcontent{
+    color:white;
+    text-decoration: none;
+}
+
+.navdeskcontent:hover{
+    font-size:18px;
+}
+
+.navdeskcontent1{
+  color:#192DE1;
+  text-decoration: none;
+}
+
+.navdeskcontent1:hover{
+  font-size:18px;
+}
+
+.navbox{
+    color:white;
+    border:3px solid white;
+    border-radius: 50px;
+    padding: 15px;
+    margin:15px;
+    width:40%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+    text-align: center;
+    height: auto;
+    backdrop-filter: blur(20px);
+}
+
+.navbox1{
+  color:#192DE1;
+  border:3px solid #192DE1;
+  border-radius: 50px;
+  padding: 15px;
+  margin:15px;
+  width:40%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+  text-align: center;
+  height: auto;
+  backdrop-filter: blur(20px);
+}
+
+
+.photoonhome{
+    background-image: url(\im.png)  ;
+    background-size: cover;
+    
+    /* position: relative;
+    left:100px; */
+    
+
+}
+
+.home{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+
+}
+
+
+.drkblue{
+  background: linear-gradient(90deg,#7381FF,#7381FF,#0000,#0000,#0000);
+  padding:20px;
+  height: 50vw;
+}
+
+.hometxt{
+  color:white;
+  padding:90px;
+}
+
+.hometxtheading{
+  font-size: 80px;
+  display: inline-block;
+}
+
+.hometxtheadingp{
+  font-size: 150px;
+  display: inline-block;
+}

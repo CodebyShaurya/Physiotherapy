@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import logo from '../assets/logo-removebg.png'
 
 const Nav= () =>{
     const [isMobile, setIsMobile] = useState(false);
@@ -27,12 +28,15 @@ const Nav= () =>{
     const location = useLocation();
     if (location.pathname === "/") {
         return (<nav>
+          
             {isMobile ? 
               <div className="burger-icon" onClick={handleToggle}>
                       &#9776; 
               </div>
             :  <div>
-              { isbox ?(<div className='navbox'>
+              { isbox ?(
+              
+                  <div className='navbox'>
 
                   <div><a href='/' className='navdeskcontent' >Home</a><br/>
                       <a href='gallery' className='navdeskcontent'>Testimonials</a><br/>
@@ -41,14 +45,16 @@ const Nav= () =>{
                       <a href='about' className='navdeskcontent'>About Me</a></div>
                           <div onClick={handleToggle}>✖</div>
 
-                        </div>):(
+                        </div>):(<div className='navbarlo'>
+                        <a href="/" ><img alt='home' src={logo} className='logo'/></a>
                   <div className='navdesk'>
-                      <a href='/' className='navdeskcontent' >Home</a>
+                      
                       <a href='Gallery' className='navdeskcontent'>Testimonials</a>
                       <a href='appointment' className='navdeskcontent' >Book Appointment</a>
+                      
                       <a href='Doctors' className='navdeskcontent'>Our Doctors</a>
                       <a href='about' className='navdeskcontent'>About Me</a>
-                  </div>
+                  </div></div>
                   )
               } </div>
               }
@@ -70,14 +76,17 @@ const Nav= () =>{
                   <a href='about' className='navdeskcontent1'>About Me</a></div>
                       <div onClick={handleToggle}>✖</div>
 
-                    </div>):(
+                    </div>):(<div className='navbarlo'>
+                        <a href="/" ><img alt='home' src={logo} className='logo'/></a>
+                  
               <div className='navdesk1'>
-                  <a href='/' className='navdeskcontent1' >Home</a>
+                  
                   <a href='Gallery' className='navdeskcontent1'>Testimonials</a>
                   <a href='appointment' className='navdeskcontent1' >Book Appointment</a>
+                  {/* <a href='/' className='navdeskcontent1' >Home</a> */}
                   <a href='Doctors' className='navdeskcontent1'>Our Doctors</a>
                   <a href='about' className='navdeskcontent1'>About Me</a>
-              </div>
+              </div></div>
               )
           } </div>
           }

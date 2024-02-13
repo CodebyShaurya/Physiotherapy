@@ -9,7 +9,7 @@ body {
   
   background: linear-gradient(#80D9FF, white,white,white,white,#80D9FF) ;
   background-size: cover;
-  width:100vw;
+  /* width:100vw; */
   height: 100vh;
 
 }

@@ -13,8 +13,9 @@ const Navbar = () => {
             <Nav/>
             <div className='home' id='home'>
                 <div className='hometxt'>
-                      <div className='hometxtheading'>Dr. Jai Physio Care</div>
-                      <div>Lorem ipsum dolor sit amet consectetur. Sodales orci aenean fames eu habitasse mauris. Habitant pellentesque rutrum in semper laoreet neque a. Sed etiam proin nulla in. Diam vulputate sed tortor aliquet id arcu. Potenti eget euismod rutrum ultrices ac. Cras risus id bibendum mattis natoque tortor quam cursus. Massa nulla.</div>
+                      <div className='hometxtheading'>Dr. Jai Physio Services</div>
+                      <div>
+At DJPS Physiotherapy, we pride ourselves on offering a transformative approach to rehabilitation that goes beyond traditional methods. We are committed to delivering exceptional care that combines cutting-edge techniques with a deep understanding of each patient's individual circumstances. With a focus on holistic wellness, evidence-based practices, and compassionate support, we empower our clients to regain strength, mobility, and confidence in their bodies. Discover the difference at DJPS Physiotherapy, where every step of your journey is guided by expertise, empathy, and a genuine commitment to your well-being.</div>
                 </div>
 
 

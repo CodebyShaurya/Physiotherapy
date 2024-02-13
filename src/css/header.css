@@ -115,8 +115,8 @@
 
 
 .photoonhome{
-    background-image: url(\im.png)  ;
-    background-size: cover;
+    background-image: url(Back-Pain.jpg)  ;
+    /* background-size: cover; */
     
     /* position: relative;
     left:100px; */
@@ -126,7 +126,7 @@
 
 .home{
   display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+  grid-template-columns: 2fr 1fr;
 
 }
 
@@ -140,6 +140,7 @@
 .hometxt{
   color:white;
   padding:50px;
+  margin-right: 110px;
 }
 
 .hometxtheading{

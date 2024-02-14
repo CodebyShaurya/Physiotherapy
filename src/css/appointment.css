@@ -7,6 +7,10 @@
     grid-gap: 50px;
 }
 
+.servicesoff li{
+    font-size: 20px;
+}
+
 .book{
     border-radius: 30px;
     background: linear-gradient(#7381FF,#17a8e6);

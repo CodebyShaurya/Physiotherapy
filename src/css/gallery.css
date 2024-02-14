@@ -27,6 +27,7 @@
 .video1{
     /* width:10vw; */
     height: 500px;
+    border-radius: 30px;
 }
 
 .photoingallery{

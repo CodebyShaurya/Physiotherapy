@@ -36,7 +36,7 @@ const Gallery = () => {
             <div className='testimonial_container'>
             
             <div className='testimonial'>
-                <video className="video1" controls={true} autoPlay={true} ref={videoRef} onClick={togglePlay} loop>
+                <video className="video1" controls={true} autoPlay={false} ref={videoRef} onClick={togglePlay} loop>
                     <source src={vid1} type="video/mp4" />
                 </video>
 

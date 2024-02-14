@@ -62,9 +62,13 @@ const Nav= () =>{
           </nav>)
       }{
       return ( <nav>
-        {isMobile ? 
+        {isMobile ? <div className='navbarmob'>
+          <div>
+          <a href="/" ><img alt='home' src={logo} className='logo'/></a>
+          </div>
           <div className="burger-icon1" onClick={handleToggle}>
                   &#9776; 
+          </div>
           </div>
         :  <div>
           { isbox ?(<div className='navbox1'>

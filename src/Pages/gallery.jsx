@@ -63,9 +63,9 @@ const Gallery = () => {
             <div className='gallerytxtheading'>Gallery</div>
             <div className='testimonial_container'>
                 <img src={img1} alt="Our photos" className='photoingallery'/>
-                <img src={img2} alt="Our photos" className='photoingallery'/>
-                <img src={img3} alt="Our photos" className='photoingallery'/>
                 <img src={img4} alt="Our photos" className='photoingallery'/>
+                <img src={img3} alt="Our photos" className='photoingallery'/>
+                {/* <img src={img2} alt="Our photos" className='photoingallery'/> */}
             </div>
             </div>
         </div>

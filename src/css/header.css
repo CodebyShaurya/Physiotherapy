@@ -212,3 +212,17 @@
     
   }
 }
+
+@media screen and (max-width:400px){
+  .navbox{
+    grid-template-columns: 2fr 1fr;
+  }
+  
+}
+
+@media screen and (max-width:280px){
+  .navbox{
+    width:70%;
+  }
+  
+}

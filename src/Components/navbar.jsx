@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 import logo from '../assets/logo-removebg.png'
 
 const Nav= () =>{
-    const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const [isbox, setbox] = useState(false);
 
   useEffect(() => {

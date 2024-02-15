@@ -26,6 +26,14 @@
 
 .doctor_container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     grid-gap:4vw;
+}
+
+@media screen and (max-width: 550px){
+    .doctor_container{
+        justify-items: center;
+        align-items: center;
+        /* margin-left:30%; */
+    }
 }

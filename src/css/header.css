@@ -217,11 +217,19 @@
   .navbox{
     grid-template-columns: 2fr 1fr;
   }
+
+  .navbox1{
+    grid-template-columns: 2fr 1fr;
+  }
   
 }
 
-@media screen and (max-width:280px){
+@media screen and (max-width:310px){
   .navbox{
+    width:70%;
+  }
+
+  .navbox1{
     width:70%;
   }
   

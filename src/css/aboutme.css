@@ -57,6 +57,7 @@
 }
 
 @media screen and (max-width: 750px) {
+
   .physiotherapy-component{
       font-size: 15px;
 
@@ -67,5 +68,11 @@
   .physiotherapy-component{
       font-size: 12px;
 
+  }
+}
+
+@media screen and (max-width: 640px){
+  .image-component{
+    grid-row: 1;
   }
 }

@@ -3,6 +3,7 @@
     font-size: 24px;
     margin: 10px;
     color: white;
+    text-align: end;
     
   }
   .burger-icon1 {
@@ -101,7 +102,7 @@
     border-radius: 50px;
     padding: 15px;
     margin:15px;
-    width:40%;
+    width:50%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
     text-align: center;
@@ -115,9 +116,9 @@
   border-radius: 50px;
   padding: 15px;
   margin:15px;
-  width:40%;
+  width:50%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(60px,1fr));
   text-align: center;
   height: auto;
   backdrop-filter: blur(20px);

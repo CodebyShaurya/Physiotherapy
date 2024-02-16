@@ -30,8 +30,8 @@ function App() {
 
       </Routes> 
     </BrowserRouter>
-    {/* <a href="https://wa.me/+918383822020" target="_blank" className="whatsapp-logo"></a> */}
-    <a href="https://wa.me/+917355177359" target="_blank" className="whatsapp-logo"></a>
+    <a href="tel:+918383822020" target="_blank" className="whatsapp-logo1"></a>
+    <a href="https://wa.me/+918383822020" target="_blank" className="whatsapp-logo"></a>
 
     </div>
   );

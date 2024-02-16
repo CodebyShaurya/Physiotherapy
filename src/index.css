@@ -31,6 +31,18 @@ code {
   animation: jump 1s infinite alternate;
 }
 
+.whatsapp-logo1 {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  width: 60px;
+  height: 60px;
+  background-image: url('./assets/call.png'); /* Replace 'whatsapp-logo.png' with your image path */
+  background-size: cover;
+  cursor: pointer;
+  animation: jump 1s infinite alternate;
+}
+
 @keyframes jump {
   0% {
       transform: translateY(0);

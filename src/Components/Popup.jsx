@@ -9,14 +9,14 @@ function Popu  () {
             <div className="popup-inner">
                 <div className='grid_contain'>
               
-              <div class="heading">Book an Appointment</div>
+              <div class="heading blinking">Book an Appointment</div>
               <button onClick={closePopup} className='close'>✖</button>
               </div>
             
             <div class="services">
                 <p>Discover our wide range of exceptional services tailored to meet your needs. With our user-friendly platform, booking an appointment is quick and hassle-free, ensuring you receive the care you deserve when you need it most.</p>
             </div>
-            <button class="button">Book Now</button> 
+            <a href='https://mailchi.mp/4a89dbc6ceee/get-updates'><button className="bookbutton" >Book Now</button> </a>
             </div>
           </div>
         );

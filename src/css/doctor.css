@@ -62,11 +62,10 @@
     text-align: center;
     height: 50vh;
     width:50vw;
+    z-index: 10;
   }
   
-  .popup-inner button {
-    margin-top: 10px;
-  }
+
   
   .content {
     text-align: end;
@@ -78,4 +77,14 @@
     background: transparent;
     border: 0px;
     color: blue;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blinking {
+    animation: blink 1s infinite;
   }

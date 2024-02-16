@@ -36,6 +36,7 @@
   
   .image-component img {
     max-width: 100%; */
+    z-index: 1;
     width: 85%;
     height: 65%;
     /* background-color: #ffffff; */
@@ -58,6 +59,7 @@
   
   .image-component img {
     max-width: 100%; */
+    z-index: 1;
     width: 500px;
     height: 500px;
     /* background-color: #ffffff; */

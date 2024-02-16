@@ -1,7 +1,7 @@
 import '../css/aboutme.css';
 import Nav from '../Components/navbar'
 import React, { useState, useEffect } from 'react';
-import image from '../assets/im.png'
+import image from '../assets/DrManoj.jpg'
 
 
 const Gallery = () => {
@@ -14,9 +14,10 @@ const Gallery = () => {
 
 
             <div className='testimonals'>
-            <div className='gallerytxtheading'>About Me</div>
+            <div className='gallerytxtheading'>Dr. Manoj</div>
             <div className='aboutme'>
-                <div className='grid-container'>
+                <div className='grid-container1'>
+                <img src={image} alt="Image" className='image-component1'/>
                 <div >
                     <p className="physiotherapy-component">Dr. Manoj is one of the best male physical therapy experts in Gokulpur, Yamuna Vihar, Delhi. He offers physiotherapy at home in Gokulpur, Yamuna Vihar and nearby areas Durgapur, Sonia Vihar, Shahdara, Ashok Vihar, Nand Nagari, Bhajanpura, Karawal Nagar, Wazirabad, Mukharji Nagar, GTB Nagar, Burari, Mukund Pur.<br/><br/>
 
@@ -33,12 +34,12 @@ With a well-established practice for home physiotherapy, he is an expert in trea
                     </div>
                     {/* <!-- Add your social media icons and contact info here --> 
                     </div>
-                    </div> */}
+                    </div> */}</div>
                     
-                    <img src={image} alt="Image" className='image-component'/>
+                    
                     {/* <!-- Add your image content here --> */}
                     
-                </div>
+                
                 </div>
             </div>
             </div>

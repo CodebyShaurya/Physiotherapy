@@ -29,6 +29,7 @@ code {
   background-size: cover;
   cursor: pointer;
   animation: jump 1s infinite alternate;
+  z-index: 2;
 }
 
 .whatsapp-logo1 {
@@ -41,6 +42,7 @@ code {
   background-size: cover;
   cursor: pointer;
   animation: jump 1s infinite alternate;
+  z-index: 2;
 }
 
 @keyframes jump {

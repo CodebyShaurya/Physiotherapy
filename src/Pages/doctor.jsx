@@ -40,11 +40,11 @@ const Doctor = () => {
 
         <div className='gallerypage' >
             <Nav/>
-            <div className="content">
+            {/* <div className="content">
         <h1>Click the button to open popup</h1>
         <button onClick={openPopup}>Open Popup</button>
-        {showPopup && <Popup closePopup={closePopup} />}
-      </div>
+        {showPopup && <Popup closePopup={closePopup} />} 
+      </div>*/}
             <div className='testimonals'>
             <div className='gallerytxtheading'>Our Doctors</div>
             <div className='doctor_container'>

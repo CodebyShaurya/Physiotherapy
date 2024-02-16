@@ -55,7 +55,8 @@ const Gallery = () => {
     return (
 
         <div className='gallerypage' >
-             <nav>
+            <Nav/>
+             {/* <nav>
         {isMobile ? <div className='navbarmob'>
           <div>
           <a href="/" ><img alt='home' src={logo} className='logo'/></a>
@@ -81,7 +82,7 @@ const Gallery = () => {
                   
                   <a href='gallery' className='navdeskcontent1'>Testimonials</a>
                   <a href='appointment' className='navdeskcontent1' >Our Services</a>
-                  {/* <a href='/' className='navdeskcontent1' >Home</a> */}
+                  {/* <a href='/' className='navdeskcontent1' >Home</a> 
                   <a href='Doctors' className='navdeskcontent1'>Our Doctors</a>
                   <a href='about' className='navdeskcontent1'>About Me</a>
               </div></div>
@@ -89,7 +90,7 @@ const Gallery = () => {
           } </div>
           }
           
-      </nav>
+      </nav> */}
             <div className='testimonals'>
             <div className='gallerytxtheading'>Testimonials</div>
             <div className='testimonial_container'>

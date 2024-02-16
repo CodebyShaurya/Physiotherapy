@@ -1,6 +1,7 @@
 import '../css/doctor.css';
 import Nav from '../Components/navbar';
-import doctor from '../assets/Frame 42.png'
+import doctor from '../assets/Frame 42.png';
+import manoj from '../assets/DrManoj.jpg'
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -49,18 +50,20 @@ const Doctor = () => {
             <div className='gallerytxtheading'>Our Doctors</div>
             <div className='doctor_container'>
                 <div className='doctor'>
-                    <img className='imageofdoctor' src={doctor} alt='dr jai'/>
+                    <img className='imageofdoctor' src={manoj} alt='dr jai'/>
                     <div>
-                        <div className='NameofDoctor'>Dr.Jai Sagar</div>
-                        <div className="content">
-                            <button onClick={openPopup}>More Details</button>
-                            {showPopup && <Popup closePopup={closePopup} />}
-                        </div>
-                        {/* <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
+                        <div className='NameofDoctor'>Dr. Manoj</div>
+                        
+                        <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
                         <div className="insideof"><span className='detailsofdoctor'>Specializes In :</span> Physiotherapy</div>
                         <div className="insideof"><span className='detailsofdoctor'>Area :</span> Delhi</div>
-                        <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div> */}
+                        <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>
                     </div>
+                    <div className="content">
+                            <a href='/DrManoj'><button  className='btndetail'>Know More{'>>'}</button></a>
+                            
+                    </div>
+                    {showPopup && <Popup closePopup={closePopup} />}
                     
                 </div>
 
@@ -77,7 +80,7 @@ const Doctor = () => {
                     
                 </div>
 
-                <div className='doctor'>
+                {/* <div className='doctor'>
                     <img className='imageofdoctor' src={doctor} alt='dr jai'/>
                     <div>
                         <div className='NameofDoctor'>Dr.Jai Sagar</div>
@@ -183,7 +186,7 @@ const Doctor = () => {
                         <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>
                     </div>
                     
-                </div>
+                </div> */}
             </div>
             </div>
         </div>

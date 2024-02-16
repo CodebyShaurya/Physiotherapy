@@ -4,6 +4,7 @@ import Gallery from './Pages/gallery';
 import About from './Pages/AboutMe';
 import Doctor from './Pages/doctor';
 import Appointment from "./Pages/appointment";
+import Manoj from './Pages/doctorspage';
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/doctors" element={<Doctor />} />
         <Route path="/appointment" element={<Appointment />} />
+        <Route path="/Drmanoj" element={<Manoj />} />
         {/* <Route path="/Teams" element={<Team />} />  */}
 
       </Routes> 
     </BrowserRouter>
     {/* <a href="https://wa.me/+918383822020" target="_blank" className="whatsapp-logo"></a> */}
-    <a href="https://wa.me/+918383822020" target="_blank" className="whatsapp-logo"></a>
+    <a href="https://wa.me/+917355177359" target="_blank" className="whatsapp-logo"></a>
 
     </div>
   );

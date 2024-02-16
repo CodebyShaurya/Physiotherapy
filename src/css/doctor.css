@@ -1,5 +1,5 @@
 .doctor{
-    height: 350px;
+    height: 380px;
     border-radius: 30px;
     border:3px solid #9747FF;
     width:270px;
@@ -8,7 +8,8 @@
 }
 .imageofdoctor{
     height: 165px;
-    width:101%;
+    width:100%;
+    border-radius: 30px;
 }
 .NameofDoctor{
     font-weight: bold;
@@ -28,6 +29,8 @@
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
     grid-gap:4vw;
+    justify-items: center;
+        align-items: center;
 }
 
 @media screen and (max-width: 550px){
@@ -55,6 +58,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 5px;
+    text-align: center;
   }
   
   .popup-inner button {
@@ -62,6 +66,13 @@
   }
   
   .content {
-    text-align: center;
-    margin-top: 50px;
+    text-align: end;
+    /* color: blue; */
+    /* margin-top: 50px; */
+  }
+
+  .btndetail{
+    background: transparent;
+    border: 0px;
+    color: blue;
   }

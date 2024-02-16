@@ -5,11 +5,17 @@ import About from './Pages/AboutMe';
 import Doctor from './Pages/doctor';
 import Appointment from "./Pages/appointment";
 import Manoj from './Pages/doctorspage';
+import Pop from './Components/Popup';
+// import Popup from 'reactjs-popup';
+// import 'reactjs-popup/dist/index.css';
 
 function App() {
   return (
     <div>
-
+        {/* <Popup trigger={<button> Trigger</button>} position="right center">
+          <div>Popup content here !!</div>
+        </Popup> */}
+        <Pop/>
 
     <BrowserRouter >
       

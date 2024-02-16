@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 
 const Doctor = () => {
     const [showWindow, setShowWindow] = useState(false);
-    const [showPopup, setShowPopup] = useState(false);
+    const [showPopup, setShowPopup] = useState(true);
 
     function Popup() {
         return (
@@ -63,7 +63,7 @@ const Doctor = () => {
                             <a href='/DrManoj'><button  className='btndetail'>Know More{'>>'}</button></a>
                             
                     </div>
-                    {showPopup && <Popup closePopup={closePopup} />}
+                    {/* {showPopup && <Popup closePopup={closePopup} />} */}
                     
                 </div>
 

@@ -34,3 +34,9 @@
 
     justify-items: center;
 }
+
+@media screen and (max-width:400px){
+    .servicesoff li{
+        width:100vw;
+    }
+}

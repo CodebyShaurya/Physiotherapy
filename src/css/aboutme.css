@@ -18,6 +18,9 @@
   .logos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    justify-content: center;
+    align-items: cener;
+    justify-items: center;
   }
   
   .contact-component {
@@ -69,8 +72,8 @@
   }
 
 .logoinabout{
-    height: 5vw;
-    width:5vw;
+    height: 50px;
+    width:50px;
 }
 @media screen and (max-width: 1300px){
   .image-component1{

@@ -27,8 +27,8 @@ With a well-established practice for home physiotherapy, he is an expert in trea
                     <div className='gallerytxtheading'>Get in Touch</div>
                     <div className='logos'>
                     {/* <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Instagram.svg/2048px-Instagram.svg.png" className="logoinabout"/></a> */}
-                    <a href="mailto:shauryagupta118@gmail.com?subject=Enquiry%20for%20Appointment"><img src="https://www.svgrepo.com/show/14478/email.svg" className="logoinabout"/></a>
-                    <a href="tel:+918383822020"><img src="https://www.svgrepo.com/show/5236/phone-call.svg" className="logoinabout"/></a>
+                    <a href="mailto:jaiphysio103@gmail.com"><img src="https://www.svgrepo.com/show/14478/email.svg" className="logoinabout"/></a>
+                    <a href="tel:+917355177359"><img src="https://www.svgrepo.com/show/5236/phone-call.svg" className="logoinabout"/></a>
                     {/* <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" className="logoinabout"/></a> */}
                     </div>
                     {/* <!-- Add your social media icons and contact info here --> */}

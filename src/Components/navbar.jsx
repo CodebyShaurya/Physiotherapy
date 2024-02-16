@@ -34,21 +34,21 @@ const Nav= () =>{
               <div>
               <a href="/" ><img alt='home' src={logo} className='logo'/></a>
               </div>
-              <div className="burger-icon" onClick={handleToggle}>
+              <div className="burger-icon1" onClick={handleToggle}>
                       &#9776; 
               </div>
               </div>
             :  <div>
               { isbox ?(
               
-                  <div className='navbox'>
+                  <div className='navbox1'>
 
                   <div>
                       {/* <a href='/' className='navdeskcontent' >Home</a><br/> */}
-                      <a href='gallery' className='navdeskcontent'>Testimonials</a><br/>
-                      <a href='appointment' className='navdeskcontent' >Our Services</a><br/>
-                      <a href='Doctors' className='navdeskcontent'>Our Doctors</a><br/>
-                      <a href='about' className='navdeskcontent'>About Me</a></div>
+                      <a href='gallery' className='navdeskcontent1'>Testimonials</a><br/>
+                      <a href='appointment' className='navdeskcontent1' >Our Services</a><br/>
+                      <a href='Doctors' className='navdeskcontent1'>Our Doctors</a><br/>
+                      <a href='about' className='navdeskcontent1'>About Me</a></div>
                           <div onClick={handleToggle}>✖</div>
 
                         </div>):(<div className='navbarlo'>

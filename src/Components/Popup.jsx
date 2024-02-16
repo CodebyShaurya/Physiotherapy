@@ -16,7 +16,7 @@ function Popu  () {
             <div class="services">
                 <p>Discover our wide range of exceptional services tailored to meet your needs. With our user-friendly platform, booking an appointment is quick and hassle-free, ensuring you receive the care you deserve when you need it most.</p>
             </div>
-            <a href='https://mailchi.mp/4a89dbc6ceee/get-updates'><button className="bookbutton" >Book Now</button> </a>
+            <a href=''><button className="bookbutton" >Book Now</button> </a>
             </div>
           </div>
         );

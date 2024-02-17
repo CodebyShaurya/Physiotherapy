@@ -52,7 +52,7 @@ const Doctor = () => {
                 <div className='doctor'>
                     <img className='imageofdoctor' src={manoj} alt='dr jai'/>
                     <div>
-                        <div className='NameofDoctor'>Dr. Manoj</div>
+                        <div className='NameofDoctor'>Dr. Manoj Kumar</div>
                         
                         <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
                         <div className="insideof"><span className='detailsofdoctor'>Specializes In :</span> Physiotherapy</div>
@@ -68,15 +68,20 @@ const Doctor = () => {
                 </div>
 
                 <div className='doctor'>
-                    <img className='imageofdoctor' src={doctor} alt='dr jai'/>
-                    <div >
-                    
-                        <div className='NameofDoctor'>Dr.Jai Sagar</div>
+                    <img className='imageofdoctor' src={manoj} alt='dr jai'/>
+                    <div>
+                        <div className='NameofDoctor'>Dr. Ankit Sharma</div>
+                        
                         <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
                         <div className="insideof"><span className='detailsofdoctor'>Specializes In :</span> Physiotherapy</div>
                         <div className="insideof"><span className='detailsofdoctor'>Area :</span> Delhi</div>
                         <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>
                     </div>
+                    <div className="content">
+                            <a href='/DrAnkit'><button  className='btndetail'>Know More{'>>'}</button></a>
+                            
+                    </div>
+                    {/* {showPopup && <Popup closePopup={closePopup} />} */}
                     
                 </div>
 

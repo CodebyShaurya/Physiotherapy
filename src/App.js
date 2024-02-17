@@ -6,6 +6,7 @@ import Doctor from './Pages/doctor';
 import Appointment from "./Pages/appointment";
 import Manoj from './Pages/doctorspage';
 import Pop from './Components/Popup';
+import ANkit from './Pages/Ankit';
 // import Popup from 'reactjs-popup';
 // import 'reactjs-popup/dist/index.css';
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/doctors" element={<Doctor />} />
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/Drmanoj" element={<Manoj />} />
+        <Route path="/DrAnkit" element={<ANkit />} />
         {/* <Route path="/Teams" element={<Team />} />  */}
 
       </Routes> 

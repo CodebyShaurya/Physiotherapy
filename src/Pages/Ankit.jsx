@@ -14,12 +14,12 @@ const Gallery = () => {
 
 
             <div className='testimonals'>
-            <div className='gallerytxtheading'>Dr. Manoj Kumar</div>
+            <div className='gallerytxtheading'>Dr. Ankit Sharma</div>
             <div className='aboutme'>
                 <div className='grid-container1'>
                 <img src={image} alt="Image" className='image-component1'/>
                 <div >
-                    <p className="physiotherapy-component">Dr. Manoj is one of the best male physical therapy experts in Gokulpur, 
+                    <p className="physiotherapy-component">Dr. Ankit Sharma is one of the best male physical therapy experts in Gokulpur, 
                     Yamuna Vihar, Delhi. He offers physiotherapy at home in Gokulpur, Yamuna Vihar and nearby areas Durgapur, Sonia Vihar, 
                     Shahdara, Ashok Vihar, Nand Nagari, Bhajanpura, Karawal Nagar, Wazirabad, Mukharji Nagar, GTB Nagar, Burari, 
                     Mukund Pur.<br/><br/>
@@ -28,7 +28,10 @@ const Gallery = () => {
                     neck pain, knee pain,sciatica, cervical spondylosis, cervicocephalic syndrome, cervicobrachial syndrome, disc bulge, 
                     frozen shoulder, arthritis, osteoporosis, muscle weakness, balancing problems… Post surgery rehab for shoulder, 
                     knee surgery / TKR, hip replacement, ligament reconstruction. Neurological issues like stroke, nerve injuries,
-                     Bell's palsy, multiple sclerosis, Parkinson's.
+                     Bell's palsy, multiple sclerosis, Parkinson's.<br/><br/>
+
+                    <b>Former physiotherapist at NKS hospital, Prmarth hospital delhi, PANACEA hospital in kanpur up</b>
+
 
                     <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>

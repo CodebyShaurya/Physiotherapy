@@ -1,7 +1,7 @@
 import '../css/aboutme.css';
 import Nav from '../Components/navbar'
 import React, { useState, useEffect } from 'react';
-import image from '../assets/DrManoj.jpg'
+import image from '../assets/DrAnkit.jpg'
 
 
 const Gallery = () => {

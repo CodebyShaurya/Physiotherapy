@@ -78,6 +78,7 @@
     background: transparent;
     border: 0px;
     color: blue;
+    cursor: pointer;
   }
 
   @keyframes blink {

@@ -22,14 +22,27 @@ const Nav= () =>{
   }, []);
 
   const handleToggle = () => {
-    setIsMobile(!isMobile);
+    // setIsMobile(!isMobile);
     setbox(!isbox);
+    console.log(isbox)
   };
     const location = useLocation();
     if (location.pathname === "/") {
         return (<nav>
           
-            {isMobile ? 
+            {isMobile ? isbox ?(
+              
+              <div className='navbox1'>
+
+              <div>
+                  {/* <a href='/' className='navdeskcontent' >Home</a><br/> */}
+                  <a href='gallery' className='navdeskcontent1'>Testimonials</a><br/>
+                  <a href='appointment' className='navdeskcontent1' >Our Services</a><br/>
+                  <a href='Doctors' className='navdeskcontent1'>Our Doctors</a><br/>
+                  <a href='about' className='navdeskcontent1'>About Me</a></div>
+                      <div onClick={handleToggle}>✖</div>
+
+                    </div>):(
               <div className='navbarmob'>
               <div>
               <a href="/" ><img alt='home' src={logo} className='logo'/></a>
@@ -38,20 +51,8 @@ const Nav= () =>{
                       &#9776; 
               </div>
               </div>
-            :  <div>
-              { isbox ?(
-              
-                  <div className='navbox1'>
-
-                  <div>
-                      {/* <a href='/' className='navdeskcontent' >Home</a><br/> */}
-                      <a href='gallery' className='navdeskcontent1'>Testimonials</a><br/>
-                      <a href='appointment' className='navdeskcontent1' >Our Services</a><br/>
-                      <a href='Doctors' className='navdeskcontent1'>Our Doctors</a><br/>
-                      <a href='about' className='navdeskcontent1'>About Me</a></div>
-                          <div onClick={handleToggle}>✖</div>
-
-                        </div>):(<div className='navbarlo'>
+            ):  <div>
+              { <div className='navbarlo'>
                         <a href="/" ><img alt='home' src={logo} className='logo'/></a>
                   <div className='navdesk'>
                       
@@ -61,32 +62,36 @@ const Nav= () =>{
                       <a href='Doctors' className='navdeskcontent'>Our Doctors</a>
                       <a href='about' className='navdeskcontent'>About Me</a>
                   </div></div>
-                  )
+                  
               } </div>
               }
               
           </nav>)
       }{
       return ( <nav>
-        {isMobile ? <div className='navbarmob'>
-          <div>
-          <a href="/" ><img alt='home' src={logo} className='logo'/></a>
-          </div>
-          <div className="burger-icon1" onClick={handleToggle}>
-                  &#9776; 
-          </div>
-          </div>
-        :  <div>
-          { isbox ?(<div className='navbox1'>
+        {isMobile ? isbox ?(
+              
+              <div className='navbox1'>
 
               <div>
+                  {/* <a href='/' className='navdeskcontent' >Home</a><br/> */}
                   <a href='gallery' className='navdeskcontent1'>Testimonials</a><br/>
                   <a href='appointment' className='navdeskcontent1' >Our Services</a><br/>
                   <a href='Doctors' className='navdeskcontent1'>Our Doctors</a><br/>
                   <a href='about' className='navdeskcontent1'>About Me</a></div>
                       <div onClick={handleToggle}>✖</div>
 
-                    </div>):(<div className='navbarlo'>
+                    </div>):(
+              <div className='navbarmob'>
+              <div>
+              <a href="/" ><img alt='home' src={logo} className='logo'/></a>
+              </div>
+              <div className="burger-icon1" onClick={handleToggle}>
+                      &#9776; 
+              </div>
+              </div>
+            ):  <div>
+          <div className='navbarlo'>
                         <a href="/" ><img alt='home' src={logo} className='logo'/></a>
                   
               <div className='navdesk1'>
@@ -97,8 +102,8 @@ const Nav= () =>{
                   <a href='Doctors' className='navdeskcontent1'>Our Doctors</a>
                   <a href='about' className='navdeskcontent1'>About Me</a>
               </div></div>
-              )
-          } </div>
+              
+           </div>
           }
           
       </nav> )

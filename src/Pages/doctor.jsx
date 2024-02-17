@@ -1,7 +1,8 @@
 import '../css/doctor.css';
 import Nav from '../Components/navbar';
 import doctor from '../assets/Frame 42.png';
-import manoj from '../assets/DrManoj.jpg'
+import manoj from '../assets/DrManoj.jpg';
+import ankit from '../assets/DrAnkit.jpg'
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 
@@ -68,7 +69,7 @@ const Doctor = () => {
                 </div>
 
                 <div className='doctor'>
-                    <img className='imageofdoctor' src={manoj} alt='dr jai'/>
+                    <img className='imageofdoctor' src={ankit} alt='dr jai'/>
                     <div>
                         <div className='NameofDoctor'>Dr. Ankit Sharma</div>
                         

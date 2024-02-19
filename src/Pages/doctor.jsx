@@ -50,6 +50,27 @@ const Doctor = () => {
             <div className='testimonals'>
             <div className='gallerytxtheading'>Our Doctors</div>
             <div className='doctor_container'>
+            <div className='doctor'>
+                    <img className='imageofdoctor' src={ankit} alt='dr jai'/>
+                    <div>
+                        <div className='NameofDoctor'>Dr. Jai Sagar</div>
+                        
+                        <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 7 Years</div>
+                        <div className="insideof"><span className='detailsofdoctor'>Specializes In :</span> Physiotherapy</div>
+                        <div className="insideof"><span className='detailsofdoctor'>Area :</span> Delhi</div>
+                        <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>
+                    </div>
+                    <div className="content">
+                            <a href='/about'><button  className='btndetail'>Know More{'>>'}</button></a>
+                            
+                    </div>
+                    {/* {showPopup && <Popup closePopup={closePopup} />} */}
+                    
+                </div>
+
+
+
+
                 <div className='doctor'>
                     <img className='imageofdoctor' src={manoj} alt='dr jai'/>
                     <div>
@@ -85,6 +106,11 @@ const Doctor = () => {
                     {/* {showPopup && <Popup closePopup={closePopup} />} */}
                     
                 </div>
+
+
+
+
+                
 
                 {/* <div className='doctor'>
                     <img className='imageofdoctor' src={doctor} alt='dr jai'/>

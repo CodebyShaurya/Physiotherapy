@@ -5,6 +5,7 @@ import manoj from '../assets/DrManoj.jpg';
 import ankit from '../assets/DrAnkit.jpg'
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import image from '../assets/im.png'
 
 
 
@@ -51,7 +52,7 @@ const Doctor = () => {
             <div className='gallerytxtheading'>Our Doctors</div>
             <div className='doctor_container'>
             <div className='doctor'>
-                    <img className='imageofdoctor' src={ankit} alt='dr jai'/>
+                    <img className='imageofdoctor' src={image} alt='dr jai'/>
                     <div>
                         <div className='NameofDoctor'>Dr. Jai Sagar</div>
                         

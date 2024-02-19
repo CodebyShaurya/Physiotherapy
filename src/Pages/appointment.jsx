@@ -15,7 +15,7 @@ const Appointment = () => {
             <div className='servicesoff'>
             
                 <li>Neurological Physiotherapy</li>
-                <li>Spot Physiotherapy</li>
+                <li>Sport Physiotherapy</li>
                 <li>Orthopaedic Physiotherapy</li>
                 <li>Paediatric Physiotherapy</li>
                 <li>Geriatric Physiotherapy</li>

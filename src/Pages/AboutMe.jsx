@@ -30,7 +30,7 @@ const Gallery = () => {
                     Neurological issues like stroke, nerve injuries, Bell's palsy, multiple sclerosis, Parkinson's.
                     
 
-                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
+                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 7 Years</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>
                     <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 9 am to 5 pm</div>
 

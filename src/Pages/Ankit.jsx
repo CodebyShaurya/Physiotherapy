@@ -20,9 +20,7 @@ const Gallery = () => {
                 <img src={image} alt="Image" className='image-component1'/>
                 <div >
                     <p className="physiotherapy-component">Dr. Ankit Sharma is one of the best male physical therapy experts in Gokulpur, 
-                    Yamuna Vihar, Delhi. He offers physiotherapy at home in Gokulpur, Yamuna Vihar and nearby areas Durgapur, Sonia Vihar, 
-                    Shahdara, Ashok Vihar, Nand Nagari, Bhajanpura, Karawal Nagar, Wazirabad, Mukharji Nagar, GTB Nagar, Burari, 
-                    Mukund Pur.<br/><br/>
+                    Yamuna Vihar, Delhi. He offers physiotherapy at home in Delhi,Delhi-NCR.<br/><br/>
 
                     With a well-established practice for home physiotherapy, he is an expert in treatment of conditions such as back pain, 
                     neck pain, knee pain,sciatica, cervical spondylosis, cervicocephalic syndrome, cervicobrachial syndrome, disc bulge, 
@@ -35,7 +33,7 @@ const Gallery = () => {
 
                     <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>
-                    <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 9 am to 5 pm</div>
+                    <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 7 am to 9 pm</div>
                     {/* <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>  */}
                      
                      

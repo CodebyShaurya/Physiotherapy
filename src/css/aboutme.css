@@ -40,8 +40,8 @@
   .image-component img {
     max-width: 100%; */
     z-index: 1;
-    width: 85%;
-    height: 65%;
+    width: 75%;
+    height: 55%;
     /* background-color: #ffffff; */
     padding: 20px;
     filter: drop-shadow(0px 0px 400px rgba(128, 217, 255, 0.7));
@@ -114,6 +114,9 @@
       font-size: 20px;
 
   }
+  .director{
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -132,7 +135,12 @@
 }
 
 @media screen and (max-width: 640px){
-  .image-component{
+  .director{
     grid-row: 1;
   }
+}
+.director{
+  text-align: center;
+  color:black;
+  font-size: 20px;
 }

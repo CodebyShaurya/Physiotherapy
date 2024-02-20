@@ -49,8 +49,10 @@ const Gallery = () => {
                     </div>
                     </div>*/}
                     </div> 
-                    <div>
+                    <div className='director'>
                     <img src={image} alt="Image" className='image-component'/>
+                    <br/>
+                    <b>DIRECTOR OF DJPS (DOCTOR JAI PHYSIO SERVICES)</b>
                     {/* <!-- Add your image content here --> */}
                     </div>
                 </div>

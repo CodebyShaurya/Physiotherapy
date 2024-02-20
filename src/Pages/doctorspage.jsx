@@ -28,7 +28,7 @@ const Gallery = () => {
                     knee surgery / TKR, hip replacement, ligament reconstruction. Neurological issues like stroke, nerve injuries,
                      Bell's palsy, multiple sclerosis, Parkinson's.
 
-                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
+                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years (NKS Hospital, Gulabi Bagh, Delhi ; RML Hospital in Lucknow UP ; Simultaneously Home Visit also in UP and Delhi)</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>
                     <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 7 am to 9 pm</div>
                     {/* <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>  */}

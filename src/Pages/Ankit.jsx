@@ -26,12 +26,10 @@ const Gallery = () => {
                     neck pain, knee pain,sciatica, cervical spondylosis, cervicocephalic syndrome, cervicobrachial syndrome, disc bulge, 
                     frozen shoulder, arthritis, osteoporosis, muscle weakness, balancing problems… Post surgery rehab for shoulder, 
                     knee surgery / TKR, hip replacement, ligament reconstruction. Neurological issues like stroke, nerve injuries,
-                     Bell's palsy, multiple sclerosis, Parkinson's.<br/><br/>
-
-                    <b>Former physiotherapist at NKS hospital, Prmarth hospital delhi, PANACEA hospital in kanpur up</b>
+                     Bell's palsy, multiple sclerosis, Parkinson's.<br/><br/>                    
 
 
-                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years</div>
+                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 8 Years (Former physiotherapist at NKS hospital, Prmarth hospital delhi, PANACEA hospital in kanpur up)</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>
                     <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 7 am to 9 pm</div>
                     {/* <div className="insideof"><span className='detailsofdoctor'>Known For :</span> Best Physiotherapy</div>  */}

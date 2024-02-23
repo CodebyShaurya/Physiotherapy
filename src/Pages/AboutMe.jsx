@@ -29,7 +29,7 @@ const Gallery = () => {
                     Neurological issues like stroke, nerve injuries, Bell's palsy, multiple sclerosis, Parkinson's.
                     
 
-                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 7 Years(Former Physiotherapist at FORTIS HOSPITAL, Noida., SPINE SOLUTION OF INDIA, Narayana vihar New Delhi., HOD at CITY HOSPITAL AND TRAUMA CENTRE, Loni road East Delhi.)</div>
+                    <div className="insideof"><span className='detailsofdoctor'>Experience :</span> 7 Years(Former Physiotherapist at FORTIS HOSPITAL, Noida., SPINE SOLUTION OF INDIA, Narayana vihar New Delhi, HOD at CITY HOSPITAL AND TRAUMA CENTRE, Loni road East Delhi.)</div>
                     <div className="insideof"><span className='detailsofdoctor'>Qualification :</span> BPT</div>
                     <div className="insideof"><span className='detailsofdoctor'>Working Hour :</span> 7 am to 9 pm</div>
 

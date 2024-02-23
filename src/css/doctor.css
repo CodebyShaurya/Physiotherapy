@@ -1,5 +1,5 @@
 .doctor{
-    height: 400px;
+    height: 420px;
     border-radius: 30px;
     border:3px solid #9747FF;
     width:270px;
@@ -7,7 +7,7 @@
     color: black;
 }
 .imageofdoctor{
-    height: 195px;
+    height: 205px;
     width:100%;
     border-radius: 30px;
 }

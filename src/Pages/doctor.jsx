@@ -1,7 +1,7 @@
 import '../css/doctor.css';
 import Nav from '../Components/navbar';
 import doctor from '../assets/Frame 42.png';
-import manoj from '../assets/DrManoj.jpg';
+import manoj from '../assets/DrManoj1.jpg';
 import ankit from '../assets/DrAnkit.jpg'
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';

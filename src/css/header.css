@@ -153,15 +153,16 @@
 
 .hometxt{
   color:white;
+  
   padding:50px;
   margin-right: 110px;
 }
 
 .hometxtheading{
-  font-size: 80px;
+  font-size: 60px;
   display: inline-block;
   margin-bottom:20px;
-  margin-top:20px;
+  margin-top:1px;
 }
 
 .hometxtheadingp{

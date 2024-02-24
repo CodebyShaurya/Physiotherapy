@@ -14,9 +14,9 @@ function Popu  () {
               </div>
             
             <div class="services">
-                <p>Discover our wide range of exceptional services tailored to meet your needs. With our user-friendly platform, booking an appointment is quick and hassle-free, ensuring you receive the care you deserve when you need it most.</p>
+                <p>Dr. Jai Physio Services elevates your journey to optimal health with expertly delivered physiotherapy and healthcare. We offer convenient in-home sessions led by highly qualified and experienced doctors, ensuring a personalized and comfortable path to recovery. Explore our comprehensive services encompassing physiotherapy, chiropractic care, and more.</p>
             </div>
-            <a href='https://us21.list-manage.com/survey?u=9376ae322b2a12153928869c3&id=edd53ec431&attribution=false'><button className="bookbutton" >Book Now</button> </a>
+            <a href='https://forms.gle/fZ7Wcsy8ZyNNqF49A'><button className="bookbutton" >Book Now</button> </a>
             </div>
           </div>
         );

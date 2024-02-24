@@ -14,7 +14,7 @@
     border: 0px;
 }
 .services {
-    font-size: 26px;
+    font-size: 20px;
     /* margin-bottom: 20px; */
 }
 .bookbutton {
@@ -73,7 +73,7 @@
 
 @media screen and (max-width:770px) {
     .heading{
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 10px;
     }
 }
@@ -86,7 +86,7 @@
         margin-top: 1px;
     }
     .services{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
 
@@ -106,7 +106,7 @@
         margin-top: 0px;
     }
     .services{
-        font-size: 13px;
+        font-size: 10px;
     }
     
     }
